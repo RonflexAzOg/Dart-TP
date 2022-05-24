@@ -9,7 +9,7 @@ void main() {
   int max = 7;
   
 //   new nbr random
-  nbr = new Random();
+  nbr = Random();
   
 //   generate a random number
   var de1 = min + nbr.nextInt(max - min);
